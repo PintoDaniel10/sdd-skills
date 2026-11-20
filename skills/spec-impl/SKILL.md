@@ -219,9 +219,10 @@ Una vez confirmado, sigue estas reglas durante toda la implementación:
 ```
 ✅ Todos los pasos del plan están implementados.
 
-Siguiente paso: verifica los criterios de aceptación de la spec uno a uno.
+Siguiente paso: ejecuta /spec-verify NN-slug para verificar y marcar
+los criterios de aceptación uno a uno.
 Si todos pasan, actualiza el estado de la spec a "Implementado"
-y haz el commit final antes de fusionar esta rama.
+(con confirmación en /spec-verify) y haz el commit final antes de fusionar esta rama.
 ```
 
 ---
@@ -237,7 +238,7 @@ y haz el commit final antes de fusionar esta rama.
               Muestra objetivo, alcance, plan y criterios
               Verifica stack en AGENTS.md / spec
   Fase 4  →  Implementa paso a paso con pausas
-              Termina recordando verificar los criterios de aceptación
+              Termina sugiriendo /spec-verify NN-slug
 
 /spec-impl 00-bootstrap-stack  (estado: Borrador)
 

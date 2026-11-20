@@ -149,7 +149,8 @@ Cuando el contenido esté listo (porque ya tenías todo, o porque todas las secc
    - Ruta del archivo creado.
    - Recordatorio: la spec está en estado `Borrador`. Cámbiala a `Aprobado` cuando la hayas releído.
    - Si acabas de crear `specs/.spec-config.yml`, menciona que existe y que `AutoCreateBranch` por defecto es `true`.
-   - Siguiente paso: una vez revisada y aprobada, ejecuta `/spec-impl NN-slug` para implementarla.
+   - Siguiente paso recomendado: ejecuta `/spec-qa` sobre la spec (informe de ambigüedades, contradicciones, casos límite y constitución) **antes** de marcarla `Aprobado`.
+   - Después de aprobarla: ejecuta `/spec-impl NN-slug` para implementarla.
    - **Detente aquí.** No propongas implementar la spec, escribir código ni ninguna acción posterior más allá de esta confirmación.
 
 ## Reglas duras
